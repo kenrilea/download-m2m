@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(20, 18, 16, 1);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.banner-image {
+  width: 100vw
+}
+.banner-header {
+  color: rgb(230, 230, 230);
+  margin: auto;
+  text-align: center;
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+  line-height: 1.1em;
+}
+.download-link {
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 2em;
+  font-weight: 500;
+  width: max-content;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import banner from './mars-banner-transition.png';
+import MissionToMars from './MissionToMars.csv';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className='banner-header unselectable'>Mission to Mars</h1>
+      <img src={banner} className='banner-image unselectable' />
+      <a
+        href={MissionToMars}
+        className='download-link'
+        download
+      >
+        Download Game
+      </a>
     </div>
   );
 }
